@@ -1,0 +1,9 @@
+I've provided the files FetchStage.h and FetchStage.C.
+Add the missing files: DecodeStage.h/DecodeStage.C,
+ ExecuteStage.h/ExecuteStage.C,
+ MemoryStage.h/MemoryStage.C,
+ and WritebackStage.h/WritebackStage.C.
+ For now, simply add the methods doClockLow and doClockHigh to each class, but leave the bodies empty.
+ These functions will take the same parameters as the ones in the FetchStage class.
+ Like FetchStage, these new classes will inherit from the Stage class.
+
